@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-reserva {
+    background-color: #ff9900;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('imagens/banner-hotel.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-primary {
+    background-color: #ff9900;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    width: 30%;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+}
